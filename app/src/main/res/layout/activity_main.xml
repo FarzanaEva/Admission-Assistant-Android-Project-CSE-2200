@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#343640"
+    tools:context="com.example.user.admissionassistant.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/Baust"
+                    android:text="Ahsanullah university of science and Technology"
+                    android:background="@drawable/austlogo"/>
+                <ImageView
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/Bewu"
+                    android:text="East West university"
+
+                    android:background="@drawable/ewulogo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/Bnsu"
+                    android:text="North South University"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/nsulogo"/>
+
+                <ImageView
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/Bbrac"
+                    android:text="Brac university"
+                    android:background="@drawable/braclogo"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/Baiub"
+                    android:text="American international university of bangladesh "
+                    android:background="@drawable/aiublogo"/>
+                <ImageView
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/Biub"
+                    android:text="independent University of Bangladesh"
+                    android:background="@drawable/iublogo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/Buiu"
+                    android:text="United international university"
+                    android:background="@drawable/uiulogo"/>
+                <ImageView
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/Bseu"
+                    android:text="South East University"
+                    android:background="@drawable/seulogo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+                <ImageView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/Buap"
+                    android:text="University of Asia pacific"
+                    android:background="@drawable/uaplogo"/>
+                <ImageView
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/Bdiu"
+                    android:text="Daffodil International University"
+                    android:background="@drawable/diulogo"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
